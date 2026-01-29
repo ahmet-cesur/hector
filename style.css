@@ -142,6 +142,14 @@ h3 {
     border-bottom: 2px solid var(--accent-color);
 }
 
+.flag-img {
+    height: 18px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 4px;
+    border-radius: 2px;
+}
+
 .lang-link:hover {
     color: var(--secondary-color);
 }
