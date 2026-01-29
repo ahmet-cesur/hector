@@ -117,6 +117,39 @@ h3 {
     transform: translateY(-2px);
 }
 
+.nav-cta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.lang-link {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: var(--transition);
+}
+
+.lang-link.active {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.lang-link:hover {
+    color: var(--secondary-color);
+}
+
+.separator {
+    color: #cbd5e0;
+}
+
 .mobile-menu-btn {
     display: none;
     font-size: 1.5rem;
